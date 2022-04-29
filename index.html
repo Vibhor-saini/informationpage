@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head section content -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Page Title -->
+    <title>Form-Demo</title>
+</head>
+<style>
+.form{
+    background-color: rgb(159, 112, 202);
+}
+</style>
+<!-- Body section content -->
+
+<body>
+    <h1>INFORMATION PAGE</h1>
+    
+    <!-- Creating a Form -->
+    <form class="form" action="#">
+        <fieldset>
+            <legend> Personal Details</legend>
+            <!-- label and input field -->
+            <ul>
+                <li>
+                    <p>
+                        <label>First Name : <input name="first name"></label>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <label>Middle Name : <input name="Middle name"></label>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <label>Last Name : <input name="Last name"></label>
+                    </p>
+                </li>
+            </ul>
+            <!-- LAbel and radio button field -->
+            <p>
+                Gender :
+                <label><input type="radio" name="gender" value="Male" />Male</label>
+
+                <label> <input type="radio" name="gender" value="Female" />Female</label>
+            </p>
+            <p>
+                <label>Email: <input type="Email"></label>
+            </p>
+            <p>
+
+                <label>D.O.B :<input type="date" name="BirthDate"></label>
+            </p>
+            <!-- Label and textarea field -->
+            <label>Address :
+                <br>
+                <textarea name="address"  cols="30" rows="4"></textarea>
+            </label>
+            <!-- creating a submit button -->
+            <p>
+                <button type="submit">Submit</button>
+            </p>
+        </fieldset>
+    </form>
+</body>
+
+</html>
